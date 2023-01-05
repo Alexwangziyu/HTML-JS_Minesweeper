@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./sl.css">
+</head>
+<body>
+    <H1>Minesweeper</H1>
+    <p id="timer">00:00:00</p>
+    <table id="grid">
+    </table>
+    <div>
+    score:<p id="sc"><p>
+    gamesize:<input type="number" id="size" name="gamesize" value ="10" min="5" max="50"/>
+    difficulty:<select name="diff" id = "difficult">
+    <option value="easy">easy</option>
+    <option value="middle">middle</option>
+    <option value="hard">hard</option>
+    </select>
+    <BUTTON onclick="setdiff()";>confirm</BUTTON>
+    </div>
+    <BUTTON onclick="generateGrid();">Reset Grid</BUTTON>
+</body>
+<script src="./sl.js" type="text/javascript" ></script>
+</html>
